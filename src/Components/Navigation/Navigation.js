@@ -1,19 +1,15 @@
 import React from 'react';
+import "./Navigation.css";
 
 
-const Navigation = () => {
+export default function Navigation() {
     return (
-        <nav style={{display: 'flex', justifyContent: 'flex-end'}}>
-            <p className='f3 link dim black underline pa3 pointer'>Top</p>
-            <p className='f3 link dim black underline pa3 pointer'>Previous</p>
-            <p className='f3 link dim black underline pa3 pointer'>Next</p>
-            <p className='f3 link dim black underline pa3 pointer'>Sound</p>
-        </nav>
-
-    );
-}
-
-
-
-
-export default Navigation;
+        <div className="navigation">
+                <div className="topLeft">
+                <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div className="topCenter"></div>
+                <div className="topRight"></div>
+        </div>
+    )
+};
