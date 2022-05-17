@@ -11,6 +11,7 @@
 
 .topLeft, .topRight{
     flex: 3;
+    padding: 10px
 
 }
 
