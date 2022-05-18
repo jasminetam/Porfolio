@@ -4,6 +4,7 @@ import { BsGithub } from 'react-icons/bs';
 import { SiIndeed } from 'react-icons/si';
 import { FiTwitter } from 'react-icons/fi';
 import { RiSearch2Line } from 'react-icons/ri';
+import jasmine from "./jasmine.jpg";
 
 export default function Navigation() {
     return (
@@ -22,7 +23,7 @@ export default function Navigation() {
                     </ul>
                 </div>
                 <div className="topRight">
-                    <img className="topImg" src="https://www.jomalone.co.uk/media/export/cms/spp/tasing_notes/mobile/Jasmine_Sambac_Mobile.png" alt="Jasmine"></img>
+                    <img className="topImg" src={jasmine} alt="Jasmine"></img>
                     <RiSearch2Line className="topSearchIcon" />
                 </div>
         </div>
