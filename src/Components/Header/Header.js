@@ -1,12 +1,15 @@
 import React from 'react';
-import './Header.css'
+import './Header.css';
+import header from "./header.jpg";
 
-const Header = () => {
+export default function Header() {
     return (
-        <div className='Header'>
-            <h1 >Jasmine's Blog</h1>
+        <div className='header'>
+            <div className="headerTitles">
+                <span className="headerTitleSm">React & Node</span>
+                <span className="headerTitleLg">Blog</span>
+            </div>https
+            <img className="headerImg" src={header} alt="" />
         </div>
     );
-}
-
-export default Header; 
+} 

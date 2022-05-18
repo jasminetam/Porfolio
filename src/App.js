@@ -1,13 +1,15 @@
 import React, {useState, useEffect} from 'react';
-import Header from './Components/Header/Header';
-import Navigation from './Components/Navigation/Navigation'
+import Home from './Components/pages/Home/Home';
+import Navigation from './Components/Navigation/Navigation';
 import './App.css';
+
+
 
 function App() {
   return (
     <div className="App">
       <Navigation />
-      <Header />
+      <Home />
       {/* {// <SocialMedia />
       <Calendar />
       <MainContainer />
