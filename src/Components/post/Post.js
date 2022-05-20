@@ -1,11 +1,12 @@
-import "./post.css"
+import "./post.css";
+import postImg from "./postImg.jpg";
 
 export default function Post() {
     return (
         <div className="post">
             <img 
             className="postImg"
-            src="" alt=""></img>
+            src={postImg} alt=""></img>
 
         <div className="postInfo">
             <div className="postCats">
@@ -17,6 +18,9 @@ export default function Post() {
             <hr />
             <span className="postDate">1 hour ago</span>
         </div>
+        <p className="postDesc">
+            lorem
+        </p>
         </div>
     );
 }
