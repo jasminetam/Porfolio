@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import SinglePost from './Components/pages/SinglePost/SinglePost';
+import Home from './Components/pages/Home/Home';
 import Navigation from './Components/Navigation/Navigation';
 import './App.css';
 
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Navigation />
-      <SinglePost />
+      <Home />
       {/* {// <SocialMedia />
       <Calendar />
       <MainContainer />
